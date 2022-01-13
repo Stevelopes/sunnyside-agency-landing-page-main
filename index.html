@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@0,900;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Frontend Mentor | Sunnyside agency landing page</title>
@@ -13,18 +17,26 @@
   <!-- Header -->
 
   <header>
+    <div class="nav-bar">
     <div>
       <picture>
         <img src="./images/logo.svg" alt="sunnyside-logo" srcset="">
       </picture>
     </div>
-    <div>
+    <nav class="nav-links">
       <a href="http://">About</a>
       <a href="http://">Services</a>
       <a href="http://">Projects</a>
       <a href="http://">Contact</a>
+    </nav>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </div>
-    <div>
+    
+    </div>
+    <div class="hero">
       <h1>We are creatives</h1>
     <picture>
       <img src="./images/icon-arrow-down.svg" alt="arrow-down" srcset="">
@@ -32,9 +44,9 @@
   </div>
   </header>
 
-  <section>
-    <div>
-      <div>
+  <section >
+    <div class="transform-brand">
+      <div class="transform-brand-text">
         <h2>
          Transform your brand
         </h2>
