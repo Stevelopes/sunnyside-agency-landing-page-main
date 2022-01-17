@@ -109,14 +109,14 @@ header .hero .nav-box::after {
   top: -20px;
 }
 
-.transform-brand {
+.transform-brand, .audience {
   display: flex;
   flex-direction: column-reverse;
 }
-.transform-brand img {
+.transform-brand img, .audience img {
   max-height: 21.8em;
 }
-.transform-brand .transform-brand-text {
+.transform-brand .transform-brand-text, .audience .transform-brand-text {
   min-height: 25em;
   text-align: center;
   display: flex;
@@ -124,12 +124,12 @@ header .hero .nav-box::after {
   justify-content: space-evenly;
   padding: 1.5em;
 }
-.transform-brand .transform-brand-text h2 {
+.transform-brand .transform-brand-text h2, .audience .transform-brand-text h2 {
   font-weight: 800;
   font-size: 2rem;
   color: #23303e;
 }
-.transform-brand .transform-brand-text a:hover {
+.transform-brand .transform-brand-text a:hover, .audience .transform-brand-text a:hover {
   -webkit-text-decoration: underline rgba(250, 212, 0, 0.3);
           text-decoration: underline rgba(250, 212, 0, 0.3);
   text-decoration-thickness: 0.375em;
@@ -139,34 +139,12 @@ header .hero .nav-box::after {
   word-spacing: 0.3em;
 }
 
-.audience {
-  display: flex;
-  flex-direction: column;
-}
-.audience .transform-brand-text {
-  min-height: 25em;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 1.5em;
-}
-.audience .transform-brand-text a:hover {
-  -webkit-text-decoration: underline rgba(254, 120, 103, 0.3);
-          text-decoration: underline rgba(254, 120, 103, 0.3);
-  text-decoration-thickness: 0.375em;
-  text-underline-offset: -0.18em;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
-  word-spacing: 0.3em;
-}
-
-.graphic-design-background {
+.graphic-design-background, .graphic-design-background-2 {
   background-image: url(../images/mobile/image-graphic-design.jpg);
   background-position: center;
   background-size: cover;
 }
-.graphic-design-background .graphic-design {
+.graphic-design-background .graphic-design, .graphic-design-background-2 .graphic-design {
   min-height: 37em;
   display: flex;
   flex-direction: column;
@@ -174,27 +152,13 @@ header .hero .nav-box::after {
   text-align: center;
   color: #25564b;
 }
-.graphic-design-background .graphic-design p {
+.graphic-design-background .graphic-design p, .graphic-design-background-2 .graphic-design p {
   padding: 0 1.5em 3em;
   color: #25564b;
 }
 
 .graphic-design-background-2 {
   background-image: url(../images/mobile/image-photography.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.graphic-design-background-2 .graphic-design {
-  min-height: 37em;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  text-align: center;
-  color: #19536b;
-}
-.graphic-design-background-2 .graphic-design p {
-  padding: 0 1.5em 3em;
-  color: #19536b;
 }
 
 .client-testimonials h2 {
@@ -283,4 +247,4 @@ footer .social-media-links {
 .attribution {
   background-color: #85dbca;
   text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=mobile-style.css.map */
