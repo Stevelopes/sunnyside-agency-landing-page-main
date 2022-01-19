@@ -64,4 +64,50 @@
     margin-top: 0;
     line-height: 1.6em;
   }
+
+  .graphic-photography {
+    flex-direction: row;
+  }
+  .graphic-photography .graphic-design {
+    width: 50%;
+    min-height: 50vh;
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+  }
+  .graphic-photography .photography {
+    background-image: url(/images/desktop/image-photography.jpg);
+  }
+
+  .client-testimonials {
+    min-height: 65vh;
+  }
+  .client-testimonials .flex-box {
+    display: flex;
+    justify-content: center;
+  }
+  .client-testimonials .flex-box .client {
+    max-width: 30vw;
+  }
+  .client-testimonials .flex-box .client blockquote {
+    margin: 2em;
+  }
+  .client-testimonials h2 {
+    padding-top: 8em;
+  }
+
+  .picture-collage {
+    flex-direction: row;
+  }
+
+  footer .links {
+    justify-content: center;
+  }
+  footer .links a {
+    margin: 1.5em;
+  }
+  footer .social-media-links {
+    justify-content: center;
+  }
+  footer .social-media-links a {
+    margin: 1em;
+  }
 }/*# sourceMappingURL=desktop-style.css.map */

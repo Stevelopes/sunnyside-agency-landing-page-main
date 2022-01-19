@@ -86,4 +86,63 @@
         }
     }
 
+    .graphic-photography {
+        flex-direction: row;
+       
+        .graphic-design {
+            width: 50%;
+            min-height: 50vh;
+            background-image: url(/images/desktop/image-graphic-design.jpg);
+        }
+
+        .photography {
+            background-image: url(/images/desktop/image-photography.jpg);
+        }
+}
+
+    .client-testimonials {
+
+     min-height: 65vh;
+
+        .flex-box {
+            display: flex;
+            justify-content: center;
+
+            .client {
+                max-width: 30vw;
+
+                blockquote {
+                  margin: 2em;
+                }
+            }
+        }
+
+        h2 {
+           padding-top: 8em;
+        }
+    }
+
+    .picture-collage {
+        flex-direction: row;
+    }
+
+    footer {
+
+        .links {
+            justify-content: center;
+
+            a {
+                margin: 1.5em;
+            }
+        }
+
+        .social-media-links {
+            justify-content: center;
+
+            a {
+                margin: 1em;
+            }
+        }
+    }
+
 }

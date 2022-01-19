@@ -139,25 +139,30 @@ header .hero .nav-box::after {
   word-spacing: 0.3em;
 }
 
-.graphic-design-background, .graphic-design-background-2 {
-  background-image: url(../images/mobile/image-graphic-design.jpg);
-  background-position: center;
-  background-size: cover;
+.audience {
+  flex-direction: column;
 }
-.graphic-design-background .graphic-design, .graphic-design-background-2 .graphic-design {
-  min-height: 37em;
+
+.graphic-photography {
+  display: flex;
+  flex-direction: column;
+}
+.graphic-photography .graphic-design {
+  min-height: 37rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
   color: #25564b;
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.graphic-design-background .graphic-design p, .graphic-design-background-2 .graphic-design p {
+.graphic-photography .graphic-design p {
   padding: 0 1.5em 3em;
   color: #25564b;
 }
-
-.graphic-design-background-2 {
+.graphic-photography .photography {
   background-image: url(../images/mobile/image-photography.jpg);
 }
 
