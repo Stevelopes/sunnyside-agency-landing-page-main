@@ -2,7 +2,7 @@
 
     header {
 
-    background-image: (url(./images/desktop/image-header.jpg));
+    background-image: url(../images/desktop/image-header.jpg);
     background-size: cover;
     min-height: 70vh;
 
@@ -127,6 +127,10 @@
     }
 
     footer {
+
+        svg {path {
+            fill: hsl(168, 34%, 41%);
+        }}
 
         .links {
             justify-content: center;

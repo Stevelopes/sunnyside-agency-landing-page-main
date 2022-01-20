@@ -13,6 +13,7 @@
     color: hsl(212, 27%, 19%);
     text-transform: uppercase;
     font-family: 'Fraunces', sans-serif;
+    cursor: pointer;
   }
 
   p {
@@ -259,7 +260,7 @@
    .footer-logo {
      padding: 4em 0 2em;
      
-     img {
+     svg {
        min-height: 2em;
       //  could'nt find a different img that was dark green
      }

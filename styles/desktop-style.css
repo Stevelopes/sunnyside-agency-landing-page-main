@@ -1,6 +1,6 @@
 @media screen and (min-width: 400px) {
   header {
-    background-image: url(./images/desktop/image-header.jpg);
+    background-image: url(../images/desktop/image-header.jpg);
     background-size: cover;
     min-height: 70vh;
   }
@@ -98,6 +98,9 @@
     flex-direction: row;
   }
 
+  footer svg path {
+    fill: #458c7e;
+  }
   footer .links {
     justify-content: center;
   }

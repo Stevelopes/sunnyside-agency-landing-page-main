@@ -13,6 +13,7 @@ a {
   color: #23303e;
   text-transform: uppercase;
   font-family: "Fraunces", sans-serif;
+  cursor: pointer;
 }
 
 p {
@@ -225,7 +226,7 @@ footer {
 footer .footer-logo {
   padding: 4em 0 2em;
 }
-footer .footer-logo img {
+footer .footer-logo svg {
   min-height: 2em;
 }
 footer .links {
