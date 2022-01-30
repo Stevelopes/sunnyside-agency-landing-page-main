@@ -8,16 +8,16 @@
     display: none;
   }
   header .nav-bar {
-    padding: 25px 50px;
+    padding: 0.5% 1%;
   }
   header .nav-bar img {
-    min-height: 2.5em;
+    width: 6em;
   }
   header .nav-bar .nav-links {
     display: flex;
   }
   header .nav-bar .nav-links a {
-    font-size: 1.5em;
+    font-size: 0.8em;
     text-transform: capitalize;
     color: white;
     min-height: 3em;
@@ -26,13 +26,14 @@
     justify-content: center;
     margin-right: 1.75em;
     line-height: 1.5;
+    transition: 250ms ease-in-out;
   }
   header .nav-bar .nav-links a:hover {
-    background-color: white;
-    min-width: 30%;
-    border-radius: 30px;
     color: #5a636c;
-    text-transform: uppercase;
+    transform: scale(1.2);
+  }
+  header .nav-bar .nav-links a:last-child {
+    margin-right: 0.1%;
   }
   header .hero .hero-heading {
     margin: 1.6em;
@@ -52,12 +53,12 @@
   }
   .transform-brand .transform-brand-text, .audience .transform-brand-text {
     width: 50vw;
-    padding: 5em 6em 5em 9em;
     text-align: left;
+    padding: 1%;
   }
   .transform-brand .transform-brand-text h2, .audience .transform-brand-text h2 {
     font-weight: 800;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 0;
   }
   .transform-brand .transform-brand-text p, .audience .transform-brand-text p {
@@ -111,6 +112,111 @@
     justify-content: center;
   }
   footer .social-media-links a {
+    margin: 1em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body {
+    max-width: 2000px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 8px #888888, -10px 10px 8px #888888;
+  }
+  body header .nav-bar {
+    padding: 25px 50px;
+  }
+  body header .nav-bar img {
+    min-height: 2.5em;
+  }
+  body header .nav-bar .nav-links a {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: white;
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.75em;
+    line-height: 1.5;
+  }
+  body header .nav-bar .nav-links a:hover {
+    background-color: white;
+    min-width: 30%;
+    border-radius: 30px;
+    color: #5a636c;
+    text-transform: uppercase;
+  }
+  body header .hero .hero-heading {
+    margin: 1.6em;
+    font-size: 3.5em;
+    word-spacing: unset;
+    letter-spacing: 0.2em;
+  }
+  body .transform-brand, body .audience {
+    flex-direction: row;
+    min-height: 50vh;
+    width: 100%;
+  }
+  body .transform-brand .brand-images, body .audience .brand-images {
+    min-height: 100%;
+    width: 50vw;
+  }
+  body .transform-brand .transform-brand-text, body .audience .transform-brand-text {
+    width: 50vw;
+    padding: 5em 6em 5em 9em;
+    text-align: left;
+  }
+  body .transform-brand .transform-brand-text h2, body .audience .transform-brand-text h2 {
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-bottom: 0;
+  }
+  body .transform-brand .transform-brand-text p, body .audience .transform-brand-text p {
+    margin-top: 0;
+    line-height: 1.6em;
+  }
+  body .graphic-photography {
+    flex-direction: row;
+  }
+  body .graphic-photography .graphic-design {
+    width: 50%;
+    min-height: 50vh;
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+  }
+  body .graphic-photography .photography {
+    background-image: url(/images/desktop/image-photography.jpg);
+  }
+  body .client-testimonials {
+    min-height: 65vh;
+  }
+  body .client-testimonials .flex-box {
+    display: flex;
+    justify-content: center;
+  }
+  body .client-testimonials .flex-box .client {
+    max-width: 30vw;
+  }
+  body .client-testimonials .flex-box .client blockquote {
+    margin: 2em;
+  }
+  body .client-testimonials h2 {
+    padding-top: 8em;
+  }
+  body .picture-collage {
+    flex-direction: row;
+  }
+  body footer svg path {
+    fill: #458c7e;
+  }
+  body footer .links {
+    justify-content: center;
+  }
+  body footer .links a {
+    margin: 1.5em;
+  }
+  body footer .social-media-links {
+    justify-content: center;
+  }
+  body footer .social-media-links a {
     margin: 1em;
   }
 }/*# sourceMappingURL=desktop-style.css.map */
